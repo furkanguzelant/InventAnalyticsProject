@@ -45,6 +45,7 @@
 43,44,Thick Tops,MENSWEAR,Overtees,Black,Daily,versatile,Heavy,Bycyle,Normal,Long,washless,Polyester
 44,45,Thick Tops,MENSWEAR,Overtees,Green,Dark Quality,versatile,Light,Bendy,Normal,Long,washless,Polyester
 45,46,Thick Tops,MENSWEAR,Overtees,Black,Dark Quality,versatile,Light,Bendy,Normal,Long,washless,Polyester
+
 46,48,Thick Tops,MENSWEAR,Overtees,Black,Daily,versatile,Light,Bendy,Narrow,Long,Light,Polyester
 47,49,Thick Tops,MENSWEAR,Overtees,Green,Daily,versatile,Light,Bendy,Narrow,Long,Light,Polyester
 48,50,Thick Tops,MENSWEAR,Overcoats,Blue,Daily,versatile,Heavy,Bycyle,Fit,Long,Light,Wool
@@ -329,6 +330,7 @@
 327,329,T-shirts,MENSWEAR,Long Sleeves,Red,Mark,versatile,Medium,Bendy,Normal,Long,washless,Cotton
 328,330,T-shirts,MENSWEAR,Trendy Shirts,Black,Daily,versatile,Medium,Bycyle,Very Large,Short,Light,Cotton
 329,331,T-shirts,MENSWEAR,Colorful Tees,White,Cool,Figure,Light,Bycyle,Narrow,Short,Light,Cotton
+
 330,333,T-shirts,MENSWEAR,Simple,Black,Basics,versatile,Medium,V Style,Fit,Short,washless,Cotton
 331,334,T-shirts,MENSWEAR,Long Sleeves,Blue,Mark,Figure,Medium,Bycyle,Normal,Long,washless,Cotton
 332,335,T-shirts,MENSWEAR,Trendy Shirts,White,Cool,Pressed,Light,Bycyle,Fit,Short,Light,Cotton
@@ -2160,6 +2162,7 @@
 2158,2161,T-shirts,MENSWEAR,Simple,Blue,Urban Style,Tabby,Light,Bycyle,Narrow,Short,Light,Cotton
 2159,2162,T-shirts,MENSWEAR,Simple,Grey,Urban Style,Tabby,Light,Bycyle,Narrow,Short,Light,Cotton
 2160,2163,T-shirts,MENSWEAR,Trendy Shirts,Pink,Urban Style,Nubbly,Light,Bycyle,Narrow,Short,Light,Cotton
+
 2161,2165,T-shirts,MENSWEAR,Colorful Tees,White,Urban Style,Figure,Light,Bycyle,Narrow,Short,washless,Cotton
 2162,2166,T-shirts,MENSWEAR,Colorful Tees,White,Business Based,Figure,Light,Bycyle,Fit,Short,Light,Cotton
 2163,2167,T-shirts,MENSWEAR,Colorful Tees,Black,Business Based,Figure,Light,Bycyle,Fit,Short,Light,Cotton
@@ -2337,6 +2340,7 @@
 2335,2339,T-shirts,MENSWEAR,Long Sleeves,White,Daily,versatile,Heavy,High,Normal,Long,washless,Cotton
 2336,2340,T-shirts,MENSWEAR,Long Sleeves,Grey,Daily,Figure,Medium,Bendy,Normal,Long,washless,Cotton
 2337,2341,T-shirts,MENSWEAR,Long Sleeves,Blue,Daily,Figure,Medium,Bendy,Normal,Long,washless,Cotton
+
 2338,2343,T-shirts,MENSWEAR,Long Sleeves,Grey,Daily,Figure,Medium,Bendy,Very Large,Long,washless,Cotton
 2339,2344,T-shirts,MENSWEAR,Trendy Shirts,Black,Daily,versatile,Light,Bycyle,Wide,Short,washless,Cotton
 2340,2345,T-shirts,MENSWEAR,Trendy Shirts,Blue,Daily,versatile,Light,Bycyle,Normal,Short,Mid,Cotton
@@ -2514,7 +2518,7 @@
 2512,2517,Thick Tops,WOMENSWEAR,Overcoats,Black,Township,versatile,Medium,Bendy,Man Friend,Long,washless,Polyester
 2513,2518,Thick Tops,WOMENSWEAR,Overtees,Black,Daily,versatile,Medium,Bendy,Very Large,Long,washless,Cotton
 2514,2519,Thick Tops,WOMENSWEAR,Overtees,Green,Daily cuteness,versatile,Medium,Bendy,Wide,Long,washless,Cotton
-2515,2520,Thick Tops,WOMENSWEAR,Overtees,Black,Visual,Pressed,Medium,High,"Off-duty, relax",Long,washless,Polyester
+"2515,2520,Thick Tops,WOMENSWEAR,Overtees,Black,Visual,Pressed,Medium,High,""Off-duty, relax"",Long,washless,Polyester"
 2516,2521,Thick Tops,WOMENSWEAR,Overtees,White,Daily,versatile,Medium,Bycyle,Fit,Long,Light,Cotton
 2517,2522,Thick Tops,WOMENSWEAR,Overtees,Blue,Daily,versatile,Light,Bycyle,Normal,Long,Light,Indigotic
 2518,2523,T-shirts,WOMENSWEAR,Colorful Tees,White,Press,Figure,Light,Bycyle,Wide,Short,washless,Cotton
@@ -2931,6 +2935,7 @@
 2929,2934,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark Quality,versatile,Heavy,Medium,Very thin,Short,Light,Tick
 2930,2935,Blue Jeans,MENSWEAR,Jean Trousers,Navy,Dark Quality,versatile,Medium,Medium,Very thin,Short,Mid,Tick
 2931,2936,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark X,versatile,Medium,Medium,Very thin,Short,Heavy,Tick
+
 2932,2938,Blue Jeans,MENSWEAR,Jean Trousers,Gray,Originals,versatile,Heavy,Medium,Very thin,Short,Mid,Tick
 2933,2939,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Old times,versatile,Medium,Medium,Very thin,Short,Mid,Tick
 2934,2940,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Soft Quality,versatile,Heavy,Medium,Very thin,Short,Mid,Tick
@@ -3470,7 +3475,7 @@
 3468,3474,T-shirts,WOMENSWEAR,Simple,Black,Basics,versatile,Medium,Bycyle,Fit,No Sleeve,washless,Decorative
 3469,3475,T-shirts,WOMENSWEAR,Colorful Tees,Grey,Press,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
 3470,3476,T-shirts,WOMENSWEAR,Colorful Tees,Yellow,Press,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
-3471,3477,T-shirts,WOMENSWEAR,Trendy Shirts,White,Business Based,versatile,Medium,Bycyle,"Off-duty, relax",No Sleeve,washless,Cotton
+"3471,3477,T-shirts,WOMENSWEAR,Trendy Shirts,White,Business Based,versatile,Medium,Bycyle,""Off-duty, relax"",No Sleeve,washless,Cotton"
 3472,3478,T-shirts,WOMENSWEAR,Long Sleeves,Orange,Daily,versatile,Medium,Bycyle,Normal,Short,washless,Cotton
 3473,3479,T-shirts,WOMENSWEAR,Trendy Shirts,Green,Daily,versatile,Medium,Bycyle,Normal,Short,washless,Cotton
 3474,3480,T-shirts,WOMENSWEAR,Trendy Shirts,Black,Modern Youngs,versatile,Medium,Bycyle,Fit,No Sleeve,washless,Polyester
@@ -3506,7 +3511,7 @@
 3504,3510,T-shirts,WOMENSWEAR,Simple,Blue,Basics,versatile,Medium,Bycyle,Fit,No Sleeve,washless,Cotton
 3505,3511,T-shirts,WOMENSWEAR,Colorful Tees,Blue,Press,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
 3506,3512,T-shirts,WOMENSWEAR,Trendy Shirts,Green,Daily youth,versatile,Medium,Bycyle,Very Large,Short,washless,Cotton
-3507,3513,T-shirts,WOMENSWEAR,Trendy Shirts,White,Visual,Pressed,Medium,Bycyle,"Off-duty, relax",Long,washless,Polyester
+"3507,3513,T-shirts,WOMENSWEAR,Trendy Shirts,White,Visual,Pressed,Medium,Bycyle,""Off-duty, relax"",Long,washless,Polyester"
 3508,3514,T-shirts,WOMENSWEAR,Trendy Shirts,Black,Visual,versatile,Medium,V Style,Fit,No Sleeve,washless,Decorative
 3509,3515,T-shirts,WOMENSWEAR,Trendy Shirts,Orange,Modern Youngs,Pressed,Medium,Bycyle,Fit,Short,washless,Cotton
 3510,3516,T-shirts,WOMENSWEAR,Trendy Shirts,Green,Modern Youngs,versatile,Medium,Classic,Fit,No Sleeve,washless,Cotton
@@ -3563,6 +3568,7 @@
 3561,3567,T-shirts,WOMENSWEAR,Simple,Yellow,Basics,Nubbly,Light,V Style,Narrow,Short,washless,Cotton
 3562,3568,T-shirts,WOMENSWEAR,Simple,Green,Basics,Nubbly,Light,V Style,Narrow,Short,washless,Cotton
 3563,3569,T-shirts,WOMENSWEAR,Simple,Green,Basics,Nubbly,Light,V Style,Narrow,Short,Light,Cotton
+
 3564,3571,T-shirts,WOMENSWEAR,Trendy Shirts,White,Cute,Nubbly,Light,Bare,Normal,Short,Light,Cotton
 3565,3572,T-shirts,WOMENSWEAR,Trendy Shirts,White,Bronze,versatile,Medium,V Style,Normal,Short,washless,Decorative
 3566,3573,T-shirts,WOMENSWEAR,Simple,Green,Basics,versatile,Light,V Style,Wide,Short,washless,Decorative
@@ -3581,6 +3587,7 @@
 3579,3586,T-shirts,WOMENSWEAR,Simple,Purple,Basics,Nubbly,Light,V Style,Narrow,Short,washless,Cotton
 3580,3587,T-shirts,WOMENSWEAR,Simple,Red,Basics,Nubbly,Light,V Style,Narrow,Short,Light,Cotton
 3581,3588,T-shirts,WOMENSWEAR,Simple,Blue,Basics,Nubbly,Light,V Style,Narrow,Short,washless,Cotton
+
 3582,3590,T-shirts,WOMENSWEAR,Simple,Blue,Basics,versatile,Light,Bycyle,Wide,Short,washless,Cotton
 3583,3591,T-shirts,WOMENSWEAR,Trendy Shirts,Green,Daily,versatile,Light,V Style,Normal,Short,Light,Decorative
 3584,3592,T-shirts,WOMENSWEAR,Trendy Shirts,Red,Daily,versatile,Light,V Style,Normal,Short,Light,Decorative
@@ -3723,6 +3730,7 @@
 3721,3729,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark Quality,versatile,Medium,Medium,Very thin,Short,Mid,Tick
 3722,3730,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark Quality,versatile,Medium,Medium,Normal Normal,Short,Light,Tick
 3723,3731,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Soft Quality,versatile,Medium,Medium,Normal Normal,Short,Light,Tick
+
 3724,3733,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark Quality,versatile,Medium,Medium,Normal Normal,Short,Mid,Tick
 3725,3734,Blue Jeans,MENSWEAR,Jean Trousers,Blue,Dark Quality,versatile,Medium,Medium,Normal Normal,Short,Light,Tick
 3726,3735,Blue Jeans,MENSWEAR,Jean Trousers,Gray,Urban Style,versatile,Medium,Medium,Normal Normal,Short,Mid,Tick
@@ -3782,6 +3790,7 @@
 3780,3789,T-shirts,MENSWEAR,Trendy Shirts,Pink,Daily,Pressed,Light,Bycyle,Narrow,Short,Light,Cotton
 3781,3790,T-shirts,MENSWEAR,Simple,White,Basics,versatile,Medium,Bycyle,Narrow,Long,washless,Cotton
 3782,3791,T-shirts,MENSWEAR,Simple,Blue,Basics,Nubbly,Medium,Bycyle,Narrow,Long,Light,Cotton
+
 3783,3793,T-shirts,MENSWEAR,Simple,White,Basics,Nubbly,Medium,Bycyle,Narrow,Long,Light,Cotton
 3784,3794,T-shirts,MENSWEAR,Colorful Tees,Black,Urban Style,Figure,Light,Bycyle,Fit,Short,Light,Cotton
 3785,3795,T-shirts,MENSWEAR,Long Sleeves,Blue,Cool,Nubbly,Medium,Bendy,Narrow,Long,Light,Cotton
@@ -4405,7 +4414,7 @@
 4403,4413,T-shirts,WOMENSWEAR,Trendy Shirts,White,Business Based,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
 4404,4414,T-shirts,WOMENSWEAR,Trendy Shirts,White,Youth Cuteness,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
 4405,4415,T-shirts,WOMENSWEAR,Trendy Shirts,White,Youth Cuteness,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
-4406,4416,T-shirts,WOMENSWEAR,Trendy Shirts,White,Business Based,versatile,Medium,Bycyle,"Off-duty, relax",Short,washless,Cotton
+"4406,4416,T-shirts,WOMENSWEAR,Trendy Shirts,White,Business Based,versatile,Medium,Bycyle,""Off-duty, relax"",Short,washless,Cotton"
 4407,4417,T-shirts,WOMENSWEAR,Trendy Shirts,White,Daily,versatile,Medium,Bycyle,Normal,Short,washless,Cotton
 4408,4418,T-shirts,WOMENSWEAR,Trendy Shirts,White,Daily,versatile,Medium,Bycyle,Normal,Short,washless,Cotton
 4409,4419,T-shirts,WOMENSWEAR,Trendy Shirts,Black,Modern Youngs,versatile,Medium,Bycyle,Fit,No Sleeve,washless,Polyester
@@ -4574,6 +4583,7 @@
 4572,4582,T-shirts,MENSWEAR,Simple,Green,Basics,versatile,Light,Bare,Fit,Short,Light,Cotton
 4573,4583,T-shirts,MENSWEAR,Simple,Blue,Basics,versatile,Light,Bare,Fit,Short,Light,Cotton
 4574,4584,T-shirts,MENSWEAR,Simple,Green,Basics,versatile,Light,Bare,Fit,Short,Light,Cotton
+
 4575,4586,T-shirts,MENSWEAR,Simple,White,Basics,versatile,Medium,Bycyle,Narrow,Long,washless,Cotton
 4576,4587,T-shirts,MENSWEAR,Simple,Green,Basics,Nubbly,Medium,Bycyle,Fit,Long,Light,Cotton
 4577,4588,T-shirts,MENSWEAR,Simple,Red,Basics,Nubbly,Medium,Bycyle,Fit,Long,Light,Cotton
@@ -5379,6 +5389,7 @@
 5377,5388,T-shirts,MENSWEAR,Long Sleeves,Blue,Cool,versatile,Medium,High,Normal,Long,washless,Cotton
 5378,5389,T-shirts,MENSWEAR,Trendy Shirts,Grey,Dark Quality,versatile,Medium,Bycyle,Normal,Short,washless,Cotton
 5379,5390,T-shirts,MENSWEAR,Trendy Shirts,Black,Dark Quality,versatile,Medium,Bycyle,Narrow,Short,washless,Cotton
+
 5380,5392,T-shirts,MENSWEAR,Trendy Shirts,Black,Urban Style,versatile,Medium,Bycyle,Wide,Short,washless,Cotton
 5381,5393,T-shirts,MENSWEAR,Simple,White,Basics,Nubbly,Medium,Bycyle,Fit,Long,Light,Cotton
 5382,5394,T-shirts,MENSWEAR,Simple,Blue,Basics,Nubbly,Medium,Bycyle,Fit,Long,Light,Cotton
@@ -6477,6 +6488,7 @@
 6475,6487,Blue Jeans,WOMENSWEAR,Jean Trousers,Gray,Old times,versatile,Heavy,High,Narrow Normal,Short,Light,Tick
 6476,6488,Blue Jeans,WOMENSWEAR,Jean Trousers,Blue,Bronze,versatile,Medium,High,Narrow Normal,Short,Mid,Tick
 6477,6489,Blue Jeans,WOMENSWEAR,Jean Trousers,White,Visual,versatile,Medium,High,Mother style,Short,Light,Tick
+
 6478,6491,Blue Jeans,WOMENSWEAR,Jean Trousers,Gray,Visual,versatile,Medium,High,Man Friend,Short,Light,Tick
 6479,6492,Blue Jeans,WOMENSWEAR,Jean Trousers,Navy,Daily cuteness,versatile,Medium,Medium,Very thin,Short,Mid,Tick
 6480,6493,Blue Jeans,WOMENSWEAR,Jean Trousers,Blue,Daily cuteness,versatile,Medium,High,Juicy,Short,Heavy,Tick

@@ -42,7 +42,8 @@ corr_matrix = data.corr()
 dates = pd.date_range(start=data['date'].min(), end=data['date'].max(), freq='7D')
 
 
-g = data.groupby('product_id')['sales_amount']
+g = data.groupby('product_id')
+first = g.get_group((list(g.groups)[0]))
 
 
 X = data.drop(["season_type","promotion_type", "date"], axis=1)
@@ -58,14 +59,15 @@ season_encoded = season_encoded.toarray()
 X = pd.concat([X, pd.DataFrame(season_encoded, columns=['Autumn-Winter', 'Summer-Spring'])], axis=1)
 
 ohe = OneHotEncoder()
-season_encoded = ohe.fit_transform(data[["promotion_type"]])
-season_encoded = season_encoded.toarray()
-X = pd.concat([X, pd.DataFrame(season_encoded)], axis=1)
+promotion_encoded = ohe.fit_transform(data[["promotion_type"]])
+promotion_encoded = promotion_encoded.toarray()
+X = pd.concat([X, pd.DataFrame(promotion_encoded)], axis=1)
 y = data["sales_amount"]
 
 
-X.to_csv('new_train.csv')
-product.to_csv('new_product.csv')
+# X.to_csv('new_train.csv')
+# product.to_csv('new_product.csv')
+
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, 
                                 random_state=0, shuffle=False, train_size= 0.8)

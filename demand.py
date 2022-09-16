@@ -9,7 +9,7 @@ import lightgbm as lgb
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import accuracy_score, mean_squared_error
 
-
+new_product = pd.read_csv('new_product.csv')
 data = pd.read_csv('data/train.csv')
 product = pd.read_csv('data/product.csv')
 
@@ -43,7 +43,16 @@ dates = pd.date_range(start=data['date'].min(), end=data['date'].max(), freq='7D
 
 
 g = data.groupby('product_id')
+
 first = g.get_group((list(g.groups)[0]))
+
+p_22 = product.loc[product['id'] == 22]
+
+
+first = pd.concat([first, p_22], axis=1)
+print(p_22.iloc[0][1])
+
+
 
 
 X = data.drop(["season_type","promotion_type", "date"], axis=1)
@@ -71,3 +80,43 @@ y = data["sales_amount"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, 
                                 random_state=0, shuffle=False, train_size= 0.8)
+
+data['category_1'] = ' '
+data['category_2'] = ' '
+data['category_3'] = ' '
+data['color_type'] = ' '
+data['life_style'] = ' '
+data['fabric'] = ' '
+data['weight_of_fabric'] = ' '
+data['neck_style'] = ' '
+data['form_type'] = ' '
+data['sleeve_type'] = ' '  
+data['washing_style'] = ' '
+
+
+data['fabric_type'] = ' '
+exact_product = product.loc[product['id'] == 22]
+data.at[0, 'category_1'] = exact_product.iloc[0][1]
+ 
+for index, row in data.iterrows():
+    print(index)
+    product_id = row['product_id']
+    exact_product = product.loc[product['id'] == product_id]
+    y = exact_product.iloc[0][1]
+    data.at[index, 'category_1'] = exact_product.iloc[0][1]
+    data.at[index, 'category_2'] = exact_product.iloc[0][2]
+    data.at[index, 'category_3'] = exact_product.iloc[0][3]
+    data.at[index, 'color_type'] = exact_product.iloc[0][4]
+    data.at[index, 'life_style'] = exact_product.iloc[0][5]
+    data.at[index, 'fabric'] = exact_product.iloc[0][6]
+    data.at[index, 'weight_of_fabric'] = exact_product.iloc[0][7]
+    data.at[index, 'neck_style'] = exact_product.iloc[0][8]
+    data.at[index, 'form_type'] = exact_product.iloc[0][9]
+    data.at[index, 'sleeve_type'] = exact_product.iloc[0][10]
+    data.at[index, 'washing_style'] = exact_product.iloc[0][11]
+    data.at[index, 'fabric_type'] = exact_product.iloc[0][12]
+    
+    
+print(data)
+
+data.to_csv('merged-table.csv')

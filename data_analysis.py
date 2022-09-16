@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import accuracy_score, mean_squared_error
 import datetime
 
-data = pd.read_csv("merged-table.csv")
+data = pd.read_csv("data.csv")
 data = data.drop('Unnamed: 0', axis = 1)
 data.date = pd.to_datetime(data.date)
 
